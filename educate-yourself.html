@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="The Feynman Mental Health Organisation helps spread awareness and shed light on different mental health problems, coping strategies, how to help others who might be struggling, and how to spread awareness yourself.">
+    <meta name="keywords" content="Mental, Health, Awareness, Help, Depression, Anxiety, PTSD">
+    <meta name="author" content="Madyar Kozhakhmetov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link below -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+        crossorigin="anonymous">
+    <!-- FontAwesome link below -->
+    <script src="https://use.fontawesome.com/5d5a7b196b.js"></script>
+    <!-- Google Fonts link below -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Favicon link below -->
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <!-- CSS link below -->
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+    
+        header {
+            background-color: #222;
+            color: #ff8c00;
+            padding: 15px 0;
+            border-bottom: 3px solid #ff8c00;
+        }
+    
+        nav a {
+            background-color: #222; /* Dark background for navbar links */
+            color: #fff !important;
+            padding: 10px 15px; /* Add padding to navbar links */
+            margin-right: 5px; /* Add margin to separate navbar links */
+        }
+    
+        nav a:hover {
+            background-color: #000; /* Black background on hover for navbar links */
+        }
+    
+        nav .mha-active {
+            background-color: #000 !important; /* Black background for active link */
+        }
+    
+        /* Add this new style for the COVID-19 link */
+        #covid-19-awareness {
+            background-color: #f66c3a; /* Orange background for COVID-19 link */
+            padding: 10px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    
+        /* Style for COVID-19 link text */
+        #covid-19-awareness a {
+            color: #fff !important;
+        }
+    
+        /* Style for COVID-19 link icon */
+        #covid-19-awareness i {
+            color: #fff;
+        }
+    
+        /* Style for COVID-19 link on hover */
+        #covid-19-awareness a:hover {
+            background-color: #cc6a00; /* Darker orange on hover for COVID-19 link */
+        }
+    
+        /* ... (rest of your styles) */
+    
+        section {
+            padding: 40px 0;
+        }
+    
+        .statistics {
+            text-align: center;
+        }
+    
+        .statistics div {
+            margin-bottom: 15px;
+        }
+    
+        .statistics span {
+            font-weight: bold;
+            color: #ff8c00;
+        }
+    
+        .call-to-action {
+            background-color: #222;
+            color: #ff8c00;
+            text-align: center;
+            padding: 40px 0;
+            border-top: 3px solid #ff8c00;
+        }
+    
+        .textual-info h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+    
+        .mha-get-started {
+            margin-top: 20px;
+        }
+    
+        .get-started-button {
+            background-color: #73ff00;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    
+        .start-spreading-awareness {
+            color: #ff8c00;
+        }
+    
+        footer {
+            background-color: #c4f63a;
+            color: #fff;
+            padding: 20px 0;
+            border-top: 3px solid #ff8c00;
+        }
+    
+        .bottom-footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+    
+        footer a {
+            color: #fff;
+        }
+    
+        #flag {
+            margin-right: 5px;
+        }
+    </style>
+    
+
+    <title>MHA Educate Yourself</title>
+</head>
+
+<body>
+    <header>
+        <aside>
+            <div id="covid-19-awareness">
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank"
+                    class="mha-link" aria-label="Link to the WHO COVID-19 Home page">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>COVID-19 resources<i
+                        class="fa fa-angle-right"></i></a>
+            </div>
+        </aside>
+        <nav class="navbar navbar-expand-lg my-0 navbar-light" id="custom-nav-css">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="custom-navbar-brand-mobile-responsiveness" href="index.html">
+                    <img src="assets/images/hugging.png" class="d-inline-block align-top"
+                        alt="Feynman Mental Health Organisation logo" loading="lazy">
+                    MHA Organization
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="nav navbar-nav mx-auto">
+                        <li><a class="nav-link mha-nav active mha-active" href="educate-yourself.html">Educate
+                                Yourself</a></li>
+                        <li><a class="nav-link mha-nav" href="help-yourself.html">Help Yourself</a></li>
+                        <li><a class="nav-link mha-nav" href="help-others.html">Help Others</a></li>
+                        <li><a class="nav-link mha-nav" href="spread-the-word.html">Spread the Word</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="nav-link mha-nav" href="sign-in.html">Sign In <span
+                                    id="mha-navbar-right-space"> | </span> Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="educate-yourself-statistics">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="statistics">
+                        <div>Mental health refers to cognitive, behavioral, and emotional well-being.</div>
+                        <div>Conditions such as stress, depression, and anxiety can all affect one's mental
+                            health.</div>
+                        <div>We must help promote the mental well-being of individuals and address the needs of
+                            those with defined mental disorders.</div>
+                        <div>Around <span>1 in 5</span> children and adolescents in the world have a mental
+                            disorder.</div>
+                        <div><span>264 million</span> people in the world are affected by depression.</div>
+                        <div>Half of the mental health disorders begin before <span>age fourteen.</span></div>
+                        <div><span>Every 40 seconds</span> one person dies from suicide.</div>
+                        <div>People with severe mental disorders die <span>10-20 years earlier</span> than the
+                            general population.</div>
+                        <div>Rates of mental health workers can reach <span>below 0.00002%</span> of the population
+                            in low-income countries.</div>
+                        <div>The global economy loses <span>$1,000,000,000,000</span> per year due to depression
+                            and anxiety.</div>
+                        <div><span>Over 40%</span> of countries have no mental health policy.</div>
+                        <div><span>Up to 60%</span> of people with depression can recover with a proper combination
+                            of anti-depressants and psychotherapy.</div>
+                        <div>Around <span>one billion</span> people globally have a mental or substance-use
+                            disorder.</div>
+                        <div>Mental health disorders are more prevalent in <span>women and the poor.</span></div>
+                        <div><span>Nine out of ten people</span> with mental health problems say that stigma and
+                            discrimination have a negative effect on their lives.</div>
+                        <div id="stories"><span>Listen to their stories.</span></div>
+                        <div>"I felt disgusted every time I looked in the mirror. I stayed away from people as
+                            much as I
+                            could, and felt I made an embarrassment of myself whenever I went out in
+                            public."<br><span>-
+                                Sarah, age 24.</span></div>
+                        <div>"I didn't know who would be there for me if I told them what I was going through, and I
+                            was
+                            embarrassed."<br><span>- Barry, age 37.</span></div>
+                        <div>"I felt guilty when I struggled with these things and felt like everyone else was
+                            clearly
+                            so much better at coping."<br><span>- Hazel, age 24.</span></div>
+                        <div>"It can be the hardest thing to do, but standing up and saying that you deserve better
+                            than
+                            this is the first step to helping yourself."<br><span>- Michael, age 25.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="educate-yourself-call-to-action call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="textual-info">
+                        <h1 style="color: #ff8c00;">What can you do now with this information?</h1>
+                        <a href="help-yourself.html" aria-label="Link to the 'Help Yourself' page"
+                            style="text-decoration: none; color: #fff;"><p>Learn about ways to protect your mental
+                                health
+                                <i class="fa fa-angle-right"></i></p></a>
+                        <a href="help-others.html" aria-label="Link to the 'Help Others' page"
+                            style="text-decoration: none; color: #fff;"><p>Learn about ways to protect the mental
+                                health
+                                of others <i class="fa fa-angle-right"></i></p></a>
+                    </div>
+                    <div class="mha-get-started">
+                        <a href="sign-up.html" aria-label="Link to the 'Sign Up' page"
+                            style="text-decoration: none; color: #fff;"><div class="get-started-button">Get
+                                started</div></a>
+                        <a href="spread-the-word.html" class="start-spreading-awareness"
+                            aria-label="Link to the 'Spread the Word' page"
+                            style="text-decoration: none;">Start spreading awareness <i
+                                class="fa fa-angle-right" style="color: #fff;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
